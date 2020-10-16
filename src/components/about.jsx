@@ -21,7 +21,6 @@ class About extends React.Component {
                     <img src="/images/myImage.png" alt="deepak-avatar" />
                     <h2 className="title-s text-center">
                       Deepak Sharma <br />
-                      <span>Full Stack Developer</span>
                     </h2>
                     <button className="cv-download-button flex items-center">
                       <svg
@@ -63,14 +62,7 @@ class About extends React.Component {
                         and advancements. It allows me to stay ahead of the
                         curve and deliver exceptional work. I am always
                         passionate about my work so it helps me to learn things
-                        quickly and brings ownership to my work. I’ve attached a
-                        copy of my resume detailing my projects.
-                      </p>
-                      <p className="about-text">
-                        I am currently seeking an opportunity as a full-stack
-                        developer in a fast-paced organisation where I can
-                        expand my skills while contributing to the success of
-                        the company.
+                        quickly and brings ownership to my work.
                       </p>
                     </div>
                   </div>
