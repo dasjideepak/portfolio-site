@@ -387,7 +387,7 @@ NAVBAR
 
 .navbar-b.navbar-trans .nav-link:hover:before,
 .navbar-b.navbar-reduce .nav-link:hover:before {
-  width: 35px;
+  width: 48px;
 }
 
 .navbar-b.navbar-trans .show > .nav-link:before,
@@ -398,7 +398,7 @@ NAVBAR
 .navbar-b.navbar-reduce .active > .nav-link:before,
 .navbar-b.navbar-reduce .nav-link.show:before,
 .navbar-b.navbar-reduce .nav-link.active:before {
-  width: 35px;
+  width: 48px;
 }
 
 .navbar-b.navbar-trans .nav-link:before {
@@ -911,30 +911,6 @@ BUTTON
   }
 }
 
-@media (min-width: 992px) {
-  .testimonial-box .description {
-    padding: 0 8rem;
-  }
-}
-
-@media (min-width: 1200px) {
-  .testimonial-box .description {
-    padding: 0 13rem;
-  }
-}
-
-@media (max-width: 1024px) {
-  .bg-image {
-    background-attachment: scroll;
-  }
-}
-
-@media (max-width: 768px) {
-  .back-to-top {
-    bottom: 15px;
-  }
-}
-
 /* my css */
 .flex {
   display: flex;
@@ -1007,12 +983,42 @@ BUTTON
 }
 
 .skills-icons > * {
-  font-size: 80px;
+  font-size: 100px;
 }
 
 .skill-card {
-  background-color: red;
-  width: 20%;
-  margin-right: 1px;
-  /* box-shadow: -1px 6px 21px 5px rgba(0, 0, 0, 0.55); */
+  width: 18%;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  padding: 36px 12px;
+}
+
+@media (min-width: 992px) {
+  .testimonial-box .description {
+    padding: 0 8rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .testimonial-box .description {
+    padding: 0 13rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .bg-image {
+    background-attachment: scroll;
+  }
+}
+
+@media (max-width: 768px) {
+  .skills-icons {
+    flex-direction: column;
+  }
+  .skill-card {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .filter-btn-sec {
+    flex-direction: column;
+  }
 }

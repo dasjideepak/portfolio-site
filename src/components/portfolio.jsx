@@ -1,10 +1,6 @@
 import React from "react";
 import { v4 as uuid } from "uuid";
-
 import { projects } from "../data";
-
-//import projects images
-import gitext from "../img/gitext.png";
 
 class Portfolio extends React.Component {
   render() {
@@ -21,7 +17,7 @@ class Portfolio extends React.Component {
             </div>
           </div>
           <div>
-            <div className="flex justify-center">
+            <div className="flex justify-center filter-btn-sec">
               <button className="filter-btn mb-4 mr-2 filter-btn-active">
                 All
               </button>
@@ -37,7 +33,7 @@ class Portfolio extends React.Component {
                     <div className="work-box">
                       <div className="work-img">
                         <img
-                          src={gitext}
+                          src={project.image}
                           alt="project-img"
                           className="img-fluid"
                         />

@@ -1,5 +1,4 @@
 import React from "react";
-import myImage from "../img/myImage.png";
 
 class About extends React.Component {
   render() {
@@ -19,7 +18,7 @@ class About extends React.Component {
               <div className="box-shadow-full">
                 <div className="row">
                   <div className="about-img col-sm-3 thumbnail flex items-center justify-center flex-col">
-                    <img src={myImage} alt="deepak-avatar" />
+                    <img src="/images/myImage.png" alt="deepak-avatar" />
                     <h2 className="title-s text-center">
                       Deepak Sharma <br />
                       <span>Full Stack Developer</span>

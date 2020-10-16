@@ -1,52 +1,34 @@
 export let projects = [
   {
-    title: "Git Command Explorer",
+    title: "Conduit - Blogging Web App",
     description:
-      "Git Command Explorer is a Google Chrome Extension using this extension user can learn or revise git commands and this extension is designed using HTML CSS and Vanilla JavaScript",
-    techs: "HTML CSS and JavaScript",
+      "A web app where users can add, update, delete and read articles, comment and upvote on articles, filter articles based on tags",
+    techs: "React Hooks, Context, Formik, Yup",
     github: "https://github.com/dasjideepak/",
+    image: "/images/project-conduit.png",
     demo: "",
+    category: "react",
   },
   {
     title: "Git Command Explorer",
     description:
-      "Git Command Explorer is a Google Chrome Extension using this extension user can learn or revise git commands and this extension is designed using HTML CSS and Vanilla JavaScript",
+      "A Google Chrome Extension using this extension user can learn or revise git commands and this extension is designed using HTML CSS and Vanilla JavaScript",
     techs: "HTML CSS and JavaScript",
-    github: "https://github.com/dasjideepak/",
-    demo: "",
+    github: "https://github.com/dasjideepak/git-command-explorer",
+    image: "/images/project-git-exp.png",
+    demo:
+      "chrome.google.com/webstore/detail/command-explorer/gklippnbdpchhjdghhacebbchddkidml?utm_source=chrome-ntp-icon",
+    category: "javascript",
   },
   {
-    title: "Git Command Explorer",
+    title: "Any Body Can Help",
     description:
-      "Git Command Explorer is a Google Chrome Extension using this extension user can learn or revise git commands and this extension is designed using HTML CSS and Vanilla JavaScript",
+      "A charity website that is designed using HTML and CSS to help childs deprived of education due to financial constraints or other reasons.",
     techs: "HTML CSS and JavaScript",
-    github: "https://github.com/dasjideepak/",
-    demo: "",
-  },
-
-  {
-    title: "Git Command Explorer",
-    description:
-      "Git Command Explorer is a Google Chrome Extension using this extension user can learn or revise git commands and this extension is designed using HTML CSS and Vanilla JavaScript",
-    techs: "HTML CSS and JavaScript",
-    github: "https://github.com/dasjideepak/",
-    demo: "",
-  },
-  {
-    title: "Git Command Explorer",
-    description:
-      "Git Command Explorer is a Google Chrome Extension using this extension user can learn or revise git commands and this extension is designed using HTML CSS and Vanilla JavaScript",
-    techs: "HTML CSS and JavaScript",
-    github: "https://github.com/dasjideepak/",
-    demo: "",
-  },
-  {
-    title: "Git Command Explorer",
-    description:
-      "Git Command Explorer is a Google Chrome Extension using this extension user can learn or revise git commands and this extension is designed using HTML CSS and Vanilla JavaScript",
-    techs: "HTML CSS and JavaScript",
-    github: "https://github.com/dasjideepak/",
-    demo: "",
+    github: "https://github.com/dasjideepak/any-body-can-help",
+    image: "/images/project-abch.png",
+    demo: "https://dasjideepak.github.io/any-body-can-help/",
+    category: "HTML",
   },
 ];
 

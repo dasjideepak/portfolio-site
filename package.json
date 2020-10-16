@@ -2,9 +2,10 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "author": "dasjideepak",
+  "description": "portfolio of dasjideepak",
   "dependencies": {
     "bootstrap": "^4.5.2",
-    "gh-pages": "^2.2.0",
     "jquery": "^3.5.1",
     "lightbox2": "^2.11.3",
     "node-sass": "^4.14.1",
@@ -12,7 +13,6 @@
     "popper.js": "^1.16.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-ga": "^3.1.2",
     "react-icons": "^3.11.0",
     "react-loader-spinner": "^3.1.14",
     "react-scripts": "3.0.1",
@@ -21,8 +21,6 @@
     "uuid": "^8.3.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

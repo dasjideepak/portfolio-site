@@ -1,20 +1,23 @@
 import React from "react";
-import "./stars.scss";
 import Typed from "react-typed";
 
 class Intro extends React.Component {
   render() {
     return (
-      // <div id="home" className="intro route bg-image " style={{backgroundImage: "url("+bigImage+")"}}>
-      <div id="home" className="intro route bg-image background">
-        <div id="stars" />
-        <div id="stars2" />
-        <div id="stars3" />
+      <div
+        id="home"
+        className="intro route bg-image "
+        style={{
+          backgroundImage: "url(/images/bg.jpg)",
+        }}
+      >
         {/* <div className="overlay-intro"></div> */}
         <div className="intro-content display-table">
           <div className="table-cell">
             <div className="container">
-              <h1 className="intro-title mb-4">Hello, I am Deepak Sharma</h1>
+              <h1 className="intro-title mb-4">
+                Hello, I am <span className="text-light">Deepak Sharma</span>
+              </h1>
               <p className="intro-subtitle">
                 <span className="text-slider-items"></span>
                 <strong className="text-slider">
@@ -22,9 +25,9 @@ class Intro extends React.Component {
                     strings={[
                       "Front End Developer",
                       "Back End Developer",
-                      "Full Stack Web Developer",
+                      "Full Stack Developer",
                     ]}
-                    typeSpeed={80}
+                    typeSpeed={120}
                     backDelay={1100}
                     backSpeed={30}
                     loop
@@ -37,7 +40,7 @@ class Intro extends React.Component {
                   href="#about"
                   role="button"
                 >
-                  View My Work
+                  Read More
                 </a>
               </p>
             </div>
