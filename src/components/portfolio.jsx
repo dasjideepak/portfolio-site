@@ -83,7 +83,7 @@ class Portfolio extends React.Component {
               {this.state.projectsData &&
                 this.state.projectsData.map((project) => {
                   return (
-                    <div className="project-card" key={uuid()}>
+                    <div className="project-card" key={project.id}>
                       <div className="work-box">
                         <div className="work-img">
                           <img

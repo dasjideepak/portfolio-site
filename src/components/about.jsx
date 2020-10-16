@@ -18,7 +18,10 @@ class About extends React.Component {
               <div className="box-shadow-full">
                 <div className="row">
                   <div className="about-img col-sm-3 thumbnail flex items-center justify-center flex-col">
-                    <img src="/images/myImage.png" alt="deepak-avatar" />
+                    <img
+                      src="https://avatars2.githubusercontent.com/u/38307844?s=460&u=f545a10c52359525a21efe75562a272f241ab57d&v=4"
+                      alt="deepak-avatar"
+                    />
                     <h2 className="title-s text-center">
                       Deepak Sharma <br />
                     </h2>
