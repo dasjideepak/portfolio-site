@@ -5,7 +5,8 @@ class Contact extends React.Component {
     return (
       <section
         className="paralax-mf footer-paralax bg-image sect-mt4 route"
-        style={{ backgroundImage: "url(/images/earth.jpg)" }}
+        style={{ backgroundColor: "black" }}
+        // backgroundImage: "url(/images/earth.jpg)"
       >
         <div className="overlay-mf"></div>
         <div className="container">

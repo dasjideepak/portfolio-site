@@ -20,7 +20,7 @@ class Blogs extends React.Component {
           <div className="row">
             {blogs.map((blog) => {
               return (
-                <div className="col-md-4" key={uuid()}>
+                <div className="col-md-4 flex" key={uuid()}>
                   <div className="work-box">
                     <div className="work-img">
                       <img
