@@ -25,7 +25,12 @@ class About extends React.Component {
                     <h2 className="title-s text-center">
                       Deepak Sharma <br />
                     </h2>
-                    <button className="cv-download-button flex items-center">
+                    <a
+                      href="https://drive.google.com/file/d/1JQajsSqBFuGa2kBp8-zXQrrh_dbn5S--/view?usp=sharing"
+                      className="cv-download-button flex items-center"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
@@ -41,7 +46,7 @@ class About extends React.Component {
                         />
                       </svg>
                       <span>Download CV</span>
-                    </button>
+                    </a>
                   </div>
                   <div className="col-sm-9 col-md-9">
                     <div className="about-para">
@@ -56,8 +61,7 @@ class About extends React.Component {
                         I always like to write my code in modular ways so that
                         help other developers to understand it easily. Building
                         state-of-the-art, easy-to-use, user-friendly websites
-                        and applications is truly a passion of mine and I am
-                        confident I would be an excellent addition.
+                        and applications is truly a passion of mine.
                       </p>
                       <p>
                         In addition to my knowledge base, I actively seek out

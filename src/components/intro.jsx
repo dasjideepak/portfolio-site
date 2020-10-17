@@ -8,10 +8,11 @@ class Intro extends React.Component {
         id="home"
         className="intro route bg-image "
         style={{
+          backgroundColor: "black",
           backgroundImage: "url(/images/bg.jpg)",
         }}
       >
-        {/* <div className="overlay-intro"></div> */}
+        <div className="overlay-intro"></div>
         <div className="intro-content display-table">
           <div className="table-cell">
             <div className="container">
@@ -22,11 +23,7 @@ class Intro extends React.Component {
                 <span className="text-slider-items"></span>
                 <strong className="text-slider">
                   <Typed
-                    strings={[
-                      "Front End Developer",
-                      "Back End Developer",
-                      "Full Stack Developer",
-                    ]}
+                    strings={["Full Stack Developer"]}
                     typeSpeed={120}
                     backDelay={1100}
                     backSpeed={30}

@@ -5,8 +5,8 @@ export let projects = [
     id: uuid(),
     title: "Conduit - Blogging Web App",
     description:
-      "A web app where users can add, update, delete and read articles, comment and upvote on articles, filter articles based on tags",
-    techs: "React",
+      "Conduit is a blogging app, an exemplary medium.com clone built using React including CRUD operations, routing, authentication, form validation, and more.",
+    techs: "React Hooks, Formik, Yup",
     githubLink: "https://github.com/dasjideepak/react-conduit-app",
     image: "/images/project-conduit (1).png",
     demoLink: "https://conduit-app.netlify.app/",
@@ -17,7 +17,7 @@ export let projects = [
     id: uuid(),
     title: "Producthunt UI Clone",
     description:
-      "Product Hunt clone that is designed using React for practicing purpose, any user can add projects and data will be saved in the localstorage of browser",
+      "Product Hunt clone designed using React, users can add projects and data will be saved in the localstorage of browser",
     techs: "React",
     githubLink: "https://github.com/dasjideepak/producthunt-ui-react",
     image: "/images/project-producthunt (1).png",
@@ -29,7 +29,7 @@ export let projects = [
     id: uuid(),
     title: "Todo List App",
     description:
-      "A simple todos list, users can perform CRUD operations on this app",
+      "A simple todo app where user can add their task. User can mark an added task as completed . They can delete only completed task or all added task as they wish.",
     techs: "React",
     githubLink: "https://github.com/dasjideepak/todo-app-react",
     image: "/images/project-todo-app.png",
@@ -53,7 +53,7 @@ export let projects = [
     id: uuid(),
     title: "Git Command Explorer",
     description:
-      "A Google Chrome Extension using this extension user can learn or revise git commands and this extension is designed using HTML CSS and Vanilla JavaScript",
+      "Git Command Explorer is a Google Chrome Extension using this extension users can learn or revise git commands and this extension",
     techs: "JavaScript",
     githubLink: "https://github.com/dasjideepak/git-command-explorer",
     image: "/images/project-git-exp (1).png",
@@ -66,7 +66,7 @@ export let projects = [
     id: uuid(),
     title: "Any Body Can Help",
     description:
-      "A charity website that is designed using HTML and CSS to help childs deprived of education due to financial constraints or other reasons.",
+      "'Any Body Can Help' is a charity website that is built to help childs deprived of education due to financial constraints or other reasons.",
     techs: "HTML and CSS",
     githubLink: "https://github.com/dasjideepak/any-body-can-help",
     image: "/images/project-abch (1).png",
@@ -89,7 +89,7 @@ export let projects = [
     id: uuid(),
     title: "Triversity IAS",
     description:
-      "Created a static website for a coaching institute. It is responsive in nature",
+      "Triversity IAS is a static website designed for a coaching institute. It is responsive in nature",
     techs: "HTML and CSS",
     image: "/images/project-triversity.png",
     githubLink: "",
@@ -145,7 +145,7 @@ export let blogs = [
   },
 
   {
-    title: "var, let, and Const",
+    title: "var, let, and const",
     description:
       "When we declare a variable in JavaScript, we can declare using var, let and const keyword, In this article, we will discuss the difference among all of the three keywords used to declare a variable",
     link:
@@ -172,14 +172,15 @@ export let blogs = [
     title: "CSS: Positioning Content",
     description:
       "Floats allow elements to appear next to, or apart from, one another. They provide the ability to build a natural flow within a layout and allow elements to interact with one another based on their. ",
-    link: "https://medium.com/@dasjideepak/",
+    link:
+      "https://medium.com/@dasjideepak/css-positioning-content-f08ec51eb818",
     image: "/images/blog5.jpeg",
   },
   {
     title: "CSS Box Modal",
     description:
       "The CSS box model is a container that contains multiple properties including borders, margin, padding and the content itself. It is used to create the design and layout of web pages  ",
-    link: "https://medium.com/@dasjideepak/",
+    link: "https://medium.com/@dasjideepak/css-box-model-55f96fb67be9",
     image: "/images/blog6.png",
   },
 ];

@@ -139,11 +139,18 @@ class Portfolio extends React.Component {
                           <div className="row">
                             <div className="col-sm-12 text-justify px-3">
                               <h2 className="w-title">{project.title}</h2>
-                              <div className="w-more">
+                              <div className="w-more realtive">
                                 <p className="card-text">
                                   {project.description}
                                 </p>
-                                <span className="w-ctegory">
+                                <span
+                                  className="w-ctegory"
+                                  style={{
+                                    fontWeight: 500,
+                                    position: "absolute",
+                                    bottom: -12,
+                                  }}
+                                >
                                   {project.techs}
                                 </span>
                               </div>

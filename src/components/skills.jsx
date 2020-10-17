@@ -2,16 +2,11 @@ import React from "react";
 
 // icons import
 import {
-  SiGraphql,
-  SiPostgresql,
   SiSass,
-  SiWebpack,
-  SiBabel,
   SiHtml5,
   SiJavascript,
   SiMongodb,
   SiRedux,
-  SiTailwindcss,
 } from "react-icons/si";
 import { FaGit } from "react-icons/fa";
 import { DiCss3 } from "react-icons/di";
@@ -64,32 +59,12 @@ class Skills extends React.Component {
                   <span className="title-s pt-4">Mongodb</span>
                 </div>
                 <div className="skill-card flex justify-center items-center flex-col  my-4 bg-light">
-                  <SiPostgresql />
-                  <span className="title-s pt-4">Postgres SQL</span>
-                </div>
-                <div className="skill-card flex justify-center items-center flex-col  my-4 bg-light">
-                  <SiGraphql />
-                  <span className="title-s pt-4">GraphQL</span>
-                </div>
-                <div className="skill-card flex justify-center items-center flex-col  my-4 bg-light">
                   <SiSass />
                   <span className="title-s pt-4">SCSS/SASS</span>
                 </div>
                 <div className="skill-card flex justify-center items-center flex-col  my-4 bg-light">
                   <FaGit />
                   <span className="title-s pt-4">Git</span>
-                </div>
-                <div className="skill-card flex justify-center items-center flex-col  my-4 bg-light">
-                  <SiWebpack />
-                  <span className="title-s pt-4">Webpack</span>
-                </div>
-                <div className="skill-card flex justify-center items-center flex-col  my-4 bg-light">
-                  <SiBabel />
-                  <span className="title-s pt-4">Babel</span>
-                </div>
-                <div className="skill-card flex justify-center items-center flex-col  my-4 bg-light">
-                  <SiTailwindcss />
-                  <span className="title-s pt-4">Tailwind CSS</span>
                 </div>
                 <div className="skill-card flex justify-center items-center flex-col  my-4 bg-light">
                   <AiOutlineCloudServer />

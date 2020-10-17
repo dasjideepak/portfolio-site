@@ -998,6 +998,7 @@ BUTTON
   font-size: 14px;
   color: #0062d3;
   border: 1px solid #0062d3;
+  color: #302f2f;
 }
 
 .read-more-btn:hover {
@@ -1025,6 +1026,7 @@ BUTTON
 
 .cv-download-button:hover {
   background-color: rgb(1, 103, 143);
+  color: white;
 }
 
 .filter-btn {
