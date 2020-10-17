@@ -976,7 +976,8 @@ BUTTON
 
 .about-para {
   text-align: justify;
-  font-family: "Roboto", sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 17px;
 }
 
 .blog-image {

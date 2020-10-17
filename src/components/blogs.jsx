@@ -34,7 +34,7 @@ class Blogs extends React.Component {
                         <div className="col-sm-12 text-justify px-3">
                           <h2 className="w-title">{blog.title}</h2>
                           <div className="w-more">
-                            <p>{blog.description}</p>
+                            <p>{blog.description.substr(1, 180) + "..."}</p>
                             <a href={blog.link} class="title-s read-more-btn">
                               Read More
                             </a>

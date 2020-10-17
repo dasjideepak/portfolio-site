@@ -28,7 +28,8 @@ export let projects = [
   {
     id: uuid(),
     title: "Todo List App",
-    description: "A simple todos list, users can perform CRUD operations on this app",
+    description:
+      "A simple todos list, users can perform CRUD operations on this app",
     techs: "React",
     githubLink: "https://github.com/dasjideepak/todo-app-react",
     image: "/images/project-todo-app.png",
@@ -146,7 +147,7 @@ export let blogs = [
   {
     title: "var, let, and Const",
     description:
-      "When we declare a variable in JavaScript, we can declare using var, let and const keyword, In this article, we will discuss the difference among all of the three keywords used to declare a variable...",
+      "When we declare a variable in JavaScript, we can declare using var, let and const keyword, In this article, we will discuss the difference among all of the three keywords used to declare a variable",
     link:
       "https://medium.com/@dasjideepak/difference-between-var-let-and-const-952072b6fb89",
     image: "/images/blog2.png",
@@ -154,7 +155,7 @@ export let blogs = [
   {
     title: "JavaScript Arrow Functions",
     description:
-      "Functions are the main “building blocks” of the program. They allow the code to be called many times without repetition, In this blog, we will learn about JavaScript Arrow Function ...",
+      "Functions are the main “building blocks” of the program. They allow the code to be called many times without repetition, In this blog, we will learn about JavaScript Arrow Function ",
     link:
       "https://medium.com/@dasjideepak/javascript-arrow-functions-e86c53fbf1b4",
     image: "/images/blog3.png",
@@ -162,7 +163,7 @@ export let blogs = [
   {
     title: "An Introduction to JavaScript",
     description:
-      "When most people start learning to code, they start with HTML and CSS. From there, they move on to JavaScript. It provides the functionality to the website and has become the most popular... ",
+      "When most people start learning to code, they start with HTML and CSS. From there, they move on to JavaScript. It provides the functionality to the website and has become the most popular ",
     link:
       "https://medium.com/@dasjideepak/an-introduction-to-javascript-1f6d0ef1922c",
     image: "/images/blog4.png",
@@ -170,14 +171,14 @@ export let blogs = [
   {
     title: "CSS: Positioning Content",
     description:
-      "Floats allow elements to appear next to, or apart from, one another. They provide the ability to build a natural flow within a layout and allow elements to interact with one another based on their.... ",
+      "Floats allow elements to appear next to, or apart from, one another. They provide the ability to build a natural flow within a layout and allow elements to interact with one another based on their. ",
     link: "https://medium.com/@dasjideepak/",
     image: "/images/blog5.jpeg",
   },
   {
     title: "CSS Box Modal",
     description:
-      "The CSS box model is a container that contains multiple properties including borders, margin, padding and the content itself. It is used to create the design and layout of web pages ... ",
+      "The CSS box model is a container that contains multiple properties including borders, margin, padding and the content itself. It is used to create the design and layout of web pages  ",
     link: "https://medium.com/@dasjideepak/",
     image: "/images/blog6.png",
   },
