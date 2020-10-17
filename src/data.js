@@ -28,8 +28,7 @@ export let projects = [
   {
     id: uuid(),
     title: "Todo List App",
-    description:
-      "A simple todos list, users can perform CRUD operations on this app",
+    description: "A simple todos list, users can perform CRUD operations on this app",
     techs: "React",
     githubLink: "https://github.com/dasjideepak/todo-app-react",
     image: "/images/project-todo-app.png",

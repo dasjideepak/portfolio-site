@@ -1,5 +1,4 @@
 import React from "react";
-import { v4 as uuid } from "uuid";
 import { projects } from "../data";
 import { SiGithub } from "react-icons/si";
 import { MdLink } from "react-icons/md";

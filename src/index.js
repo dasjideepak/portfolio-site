@@ -7,6 +7,7 @@ import "./icons/css/ionicons.css";
 import "./style.css";
 import "jquery/dist/jquery.min.js";
 import "bootstrap/dist/js/bootstrap.min.js";
+import "./libs/easing.js";
 
 import Navbar from "./components/navbar.jsx";
 import Intro from "./components/intro.jsx";
