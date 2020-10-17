@@ -21,12 +21,12 @@ class Blogs extends React.Component {
             {blogs.map((blog) => {
               return (
                 <div className="col-md-4 flex" key={uuid()}>
-                  <div className="work-box">
+                  <div className="work-box blog-card">
                     <div className="work-img">
                       <img
                         src={blog.image}
                         alt="blog-img"
-                        className="img-fluid"
+                        className="img-fluid blog-image"
                       />
                     </div>
                     <div className="work-content">
@@ -35,7 +35,9 @@ class Blogs extends React.Component {
                           <h2 className="w-title">{blog.title}</h2>
                           <div className="w-more">
                             <p>{blog.description}</p>
-                            <span className="w-ctegory">{blog.link}</span>
+                            <a href={blog.link} class="title-s read-more-btn">
+                              Read More
+                            </a>
                           </div>
                         </div>
                       </div>

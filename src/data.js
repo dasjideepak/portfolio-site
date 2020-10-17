@@ -17,7 +17,7 @@ export let projects = [
     id: uuid(),
     title: "Producthunt UI Clone",
     description:
-      "Product Hunt clone that is designed using React for practicing purpose, and also any user can add projects",
+      "Product Hunt clone that is designed using React for practicing purpose, any user can add projects and data will be saved in the localstorage of browser",
     techs: "React",
     githubLink: "https://github.com/dasjideepak/producthunt-ui-react",
     image: "/images/project-producthunt (1).png",
@@ -28,7 +28,8 @@ export let projects = [
   {
     id: uuid(),
     title: "Todo List App",
-    description: "Todo List App",
+    description:
+      "A simple todos list, users can perform CRUD operations on this app",
     techs: "React",
     githubLink: "https://github.com/dasjideepak/todo-app-react",
     image: "/images/project-todo-app.png",
@@ -77,7 +78,7 @@ export let projects = [
     id: uuid(),
     title: "GPG Website",
     description:
-      'A static website that is designed for my college "Government Polytechnic Ghaziabad" during my college days',
+      "Created a static website for Government Polytechnic Ghaziabad. It is live on https://gpghaziabad.ac.in/. It is part of my college project",
     techs: "HTML and CSS",
     image: "/images/project-gpg (1).png",
     demoLink: "https://www.gpghaziabad.ac.in/",
@@ -87,7 +88,8 @@ export let projects = [
   {
     id: uuid(),
     title: "Triversity IAS",
-    description: "Website of a civil services coaching institue",
+    description:
+      "Created a static website for a coaching institute. It is responsive in nature",
     techs: "HTML and CSS",
     image: "/images/project-triversity.png",
     githubLink: "",
@@ -99,7 +101,7 @@ export let projects = [
     id: uuid(),
     title: "Twitter Bot",
     description:
-      "A Twitter Bot that shares awesome 😎 programming quotes every hour and likes the tweet of other users using some hashtags.",
+      "A Twitter Bot that shares awesome programming quotes every hour and likes the tweet of other users using some hashtags.",
     techs: "NodeJS",
     image: "/images/project-twitter-bot.png",
     githubLink: "",
@@ -111,9 +113,9 @@ export let projects = [
     id: uuid(),
     title: "Shopping Cart",
     description:
-      "A ecommerce web-app, admin can add items and users can add items to cart and check-out the final price.",
+      "A ecommerce web-app, admin can add products for users and user can add products to cart and check-out the final price",
     techs: "EJS, NodeJS, ExpressJS and MongoDB",
-    image: "/images/project-twitter-bot.png",
+    image: "/images/project-shopping-card.png",
     githubLink: "https://github.com/dasjideepak/shopping-cart",
     category: "node",
     isLinkVisible: false,
@@ -135,38 +137,49 @@ export let projects = [
 // twitter bot
 export let blogs = [
   {
-    title: "CSS: Positioning Content",
+    title: "Cookies and Session",
     description:
-      "Floats allow elements to appear next to, or apart from, one another. They provide the ability to build a natural flow within a layout and allow elements to interact with one another based on their size and the size of their containing parent. ",
-    link: "https://medium.com/@dasjideepak/",
-    image: "/images/blog1.png",
+      "An HTTP cookie (also called web cookie, Internet cookie, browser cookie, or simply cookie) is a small piece of data sent from a website and stored on the user’s computer… ",
+    link: "https://medium.com/@dasjideepak/cookies-and-session-1e5a7e02c6d1",
+    image: "/images/blog1.jpg",
   },
+
   {
-    title: "CSS: Positioning Content",
+    title: "var, let, and Const",
     description:
-      "Floats allow elements to appear next to, or apart from, one another. They provide the ability to build a natural flow within a layout and allow elements to interact with one another based on their size and the size of their containing parent. ",
-    link: "https://medium.com/@dasjideepak/",
+      "When we declare a variable in JavaScript, we can declare using var, let and const keyword, In this article, we will discuss the difference among all of the three keywords used to declare a variable...",
+    link:
+      "https://medium.com/@dasjideepak/difference-between-var-let-and-const-952072b6fb89",
     image: "/images/blog2.png",
   },
   {
-    title: "CSS: Positioning Content",
+    title: "JavaScript Arrow Functions",
     description:
-      "Floats allow elements to appear next to, or apart from, one another. They provide the ability to build a natural flow within a layout and allow elements to interact with one another based on their size and the size of their containing parent. ",
-    link: "https://medium.com/@dasjideepak/",
+      "Functions are the main “building blocks” of the program. They allow the code to be called many times without repetition, In this blog, we will learn about JavaScript Arrow Function ...",
+    link:
+      "https://medium.com/@dasjideepak/javascript-arrow-functions-e86c53fbf1b4",
     image: "/images/blog3.png",
   },
   {
-    title: "CSS: Positioning Content",
+    title: "An Introduction to JavaScript",
     description:
-      "Floats allow elements to appear next to, or apart from, one another. They provide the ability to build a natural flow within a layout and allow elements to interact with one another based on their size and the size of their containing parent. ",
-    link: "https://medium.com/@dasjideepak/",
+      "When most people start learning to code, they start with HTML and CSS. From there, they move on to JavaScript. It provides the functionality to the website and has become the most popular... ",
+    link:
+      "https://medium.com/@dasjideepak/an-introduction-to-javascript-1f6d0ef1922c",
     image: "/images/blog4.png",
   },
   {
     title: "CSS: Positioning Content",
     description:
-      "Floats allow elements to appear next to, or apart from, one another. They provide the ability to build a natural flow within a layout and allow elements to interact with one another based on their size and the size of their containing parent. ",
+      "Floats allow elements to appear next to, or apart from, one another. They provide the ability to build a natural flow within a layout and allow elements to interact with one another based on their.... ",
     link: "https://medium.com/@dasjideepak/",
     image: "/images/blog5.jpeg",
+  },
+  {
+    title: "CSS Box Modal",
+    description:
+      "The CSS box model is a container that contains multiple properties including borders, margin, padding and the content itself. It is used to create the design and layout of web pages ... ",
+    link: "https://medium.com/@dasjideepak/",
+    image: "/images/blog6.png",
   },
 ];

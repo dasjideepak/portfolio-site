@@ -104,7 +104,7 @@ class Portfolio extends React.Component {
                               >
                                 <div className="button-container">
                                   <div className="flex items-center">
-                                    {project.demoLink ? (
+                                    {project.githubLink ? (
                                       <a
                                         href={project.githubLink}
                                         target="_blank"
@@ -141,7 +141,9 @@ class Portfolio extends React.Component {
                             <div className="col-sm-12 text-justify px-3">
                               <h2 className="w-title">{project.title}</h2>
                               <div className="w-more">
-                                <p>{project.description}</p>
+                                <p className="card-text">
+                                  {project.description}
+                                </p>
                                 <span className="w-ctegory">
                                   {project.techs}
                                 </span>
